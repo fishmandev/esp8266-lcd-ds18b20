@@ -4,7 +4,7 @@
 #include <DallasTemperature.h>
 
 LiquidCrystal_I2C lcd(0x27,16, 2);
-const int oneWireBus = D4;
+const int oneWireBus = D3;
 OneWire oneWire(oneWireBus);
 DallasTemperature sensors(&oneWire); 
 
